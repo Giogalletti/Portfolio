@@ -1,0 +1,154 @@
+.destaque {
+    height: 100vh;
+    position: relative;
+    transition: 0.4s ease-in-out
+}
+
+.destaque--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 15%, transparent 40%);
+}
+
+.destaque-horizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 25%, transparent 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 150px;
+}
+.destaque-info{
+    margin-bottom: 100px;
+}
+.destaque-info h2 {
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 50%;
+}
+
+.destaque-info p {
+    font-size: 20px;
+    color: #999;
+    margin-top: 15px;
+    max-width: 30%;
+}
+
+.destaque-info a {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #333;
+    color: #FFF;
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+
+.destaque-info a:hover {
+    opacity: 0.7;
+}
+.title-image{
+    width: 500px;
+    height: 500px;
+    margin-bottom: -200px;
+    margin-left: -30px;
+}
+.arrow {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: #999;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.arrow:hover {
+    color: #e2dddd;
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+/* Celular */
+@media (max-width: 430px) {
+    .destaque {
+        height: 82vh;
+        width: 425px;
+    }
+    .destaque-horizontal {
+        padding-left: 20px;
+        padding-bottom: 100px;
+        background: linear-gradient(to right, #111 30%, transparent 40%);
+    }
+
+    .destaque-info {
+        margin-bottom: 50px;
+    }
+
+    .destaque-info h2 {
+        font-size: 30px;
+        max-width: 3px;
+    }
+
+    .destaque-info p {
+        font-size: 16px;
+        max-width: 50%;
+        margin-top: -30px;
+    }
+
+    .destaque-info a {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .title-image {
+        width: 300px;
+        height: auto;
+        margin-bottom: -100px;
+        margin-left: -1;
+        margin-top: 20px;
+    }
+
+    .arrow {
+        font-size: 30px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .destaque {
+        height: 100vh;
+        margin-bottom: 25px;
+        width: 94.5vh;
+    }
+
+    .destaque-info h2 {
+        font-size: 40px;
+    }
+
+    .destaque-info p {
+        font-size: 18px;
+        max-width: 30%;
+    }
+
+    .title-image {
+        width: 400px;
+    }
+
+    .arrow {
+        font-size: 35px;
+    }
+}
