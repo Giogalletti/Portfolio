@@ -89,9 +89,6 @@ const MovieRow = () => {
         <a href="https://github.com/Giogalletti" target="_blank" rel="noopener noreferrer">
           <img src="/public/github.png" alt="GitHub" />
         </a>
-        <a href="/curriculo.pdf" download>
-          <img src="curriculo.png" alt="" />
-        </a>
       </div>
 
       {modalData.isOpen && (
