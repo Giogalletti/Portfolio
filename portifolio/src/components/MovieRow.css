@@ -29,13 +29,16 @@
     margin-left: 40px;
 }
 
-.movieRow--item--t img,
-.movieRow--item--p img {
+.movieRow--item--t img {
     margin-right: 10px;
     width: 220px;
     height: 160px;
     transform: scale(0.9);
     transition: all ease 0.2s;
+}
+.movieRow--item--p img{
+    border-radius: 8px;
+    width: 300px;
 }
 .movieRow--item--p img:hover {
     cursor: pointer;
@@ -105,10 +108,9 @@ img:hover {
 }
 
 .movieRow.dark {
-    background-color: #333; /* Cor do fundo escuro */
-    color: white; /* Cor do texto claro */
+    background-color: #333;
+    color: white;
 }
-
 /* Modal */
 .modal {
     position: fixed;
@@ -146,12 +148,12 @@ img:hover {
 .modal-content img {
     width: 100%;
     height: auto;
-    transform: scale(1); /* Mantendo o scale normal */
-    transition: none; /* Sem transição para a imagem do modal */
+    transform: scale(1);
+    transition: none;
 }
 
 .modal-content img:hover {
-    transform: scale(1); /* Nenhum efeito de escala ao passar o mouse */
+    transform: scale(1);
 }
 
 .modal-content p {
@@ -203,8 +205,7 @@ img:hover {
         height: auto;
     }
     .movieRow--item--p img{
-        width: 180px;
-        height: auto;
+        width: 300px;
     }
     .movieRow--item--c img {
         width: 85px;

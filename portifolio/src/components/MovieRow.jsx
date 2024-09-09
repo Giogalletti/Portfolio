@@ -67,17 +67,12 @@ const MovieRow = () => {
         <div className='movieRow--list'>
           <h2>Projetos</h2>
           <div className='movieRow--item--p' ref={projListRef}>
-            <img src="/public/Galeria.png" alt="Galeria de Fotos" onClick={() => handleImageClick("/public/Galeria.mp4", "Aplicação web responsiva que usa APIs para exibir imagens.")} />
+            <img src="/public/galeria-pc.png" alt="Galeria de Fotos" onClick={() => handleImageClick("/public/Galeria.mp4", "Aplicação web responsiva que usa APIs para exibir imagens.")} />
             <img src="/public/clone_apple.png" alt="Clone Apple" onClick={() => handleImageClick("/public/IPhone.mp4", "Um clone da página da Apple, replicando seu design elegante com responsividade mobile")} />
             <img src="/public/tabuada.png" alt="Tabuada" onClick={() => handleImageClick("/public/Tabuada.mp4", "Um aplicativo para aprender e praticar tabuadas.")} />
             <img src="/public/gerador_qr_code.png" alt="Gerador QR Code" onClick={() => handleImageClick("/public/GeradorQRCode.mp4", "Um gerador de QR Codes, útil para compartilhamento rápido.")} />
-            <img src="/public/clone_instagram.png" alt="Clone Instagram" onClick={() => handleImageClick("/public/clone_instagram.png", "Um clone da interface do Instagram, destacando suas funcionalidades.")} />
-            <img src="/public/site_venda_de_carros.png" alt="Site de Venda de Carros" onClick={() => handleImageClick("/public/site_venda_de_carros.png", "Um site para a venda de carros usados, com recursos simples.")} />
-            <img src="/public/black.png" alt="Tabuada" onClick={() => handleImageClick("/public/tabuada.png", "Um aplicativo para aprender e praticar tabuadas.")} />
-            <img src="/public/black.png" alt="Tabuada" onClick={() => handleImageClick("/public/tabuada.png", "Um aplicativo para aprender e praticar tabuadas.")} />
-            <img src="/public/black.png" alt="Tabuada" onClick={() => handleImageClick("/public/tabuada.png", "Um aplicativo para aprender e praticar tabuadas.")} />
-            <img src="/public/black.png" alt="Tabuada" onClick={() => handleImageClick("/public/tabuada.png", "Um aplicativo para aprender e praticar tabuadas.")} />
-          </div>
+            <img src="/public/Lista.png" alt="Lista de Tarefas" onClick={() => handleImageClick("/public/ListaDeTarefas.mp4", "Um aplicativo para gerenciamento de tarefas feito com react")} />
+            <img src="/public/clone_instagram.png" alt="Clone Instagram" onClick={() => handleImageClick("/public/instagram.mp4", "Um clone da interface do Instagram, destacando suas funcionalidades.")} />          </div>
         </div>
       </div>
       <h2>Contatos</h2>
@@ -93,6 +88,9 @@ const MovieRow = () => {
         </a>
         <a href="https://github.com/Giogalletti" target="_blank" rel="noopener noreferrer">
           <img src="/public/github.png" alt="GitHub" />
+        </a>
+        <a href="/curriculo.pdf" download>
+          <img src="curriculo.png" alt="" />
         </a>
       </div>
 

@@ -15,7 +15,7 @@ const images = [
   {
     src: './public/sonho.png',
     title: './public/sonho-title.png',
-    description: 'Continue explorando, você irá encontrar alguns dos meus projetos, clique neles para ter uma visão melhor e ler a descrição. Eles refletem um pouco do meu trabalho e aprendizado até agora.',
+    description: 'Continue explorando, você irá encontrar alguns dos meus projetos, clique neles para ver o funcionamento e ler a descrição. Eles refletem um pouco do meu trabalho e aprendizado até agora.',
   },
   {
     src: './public/contratar.png',
