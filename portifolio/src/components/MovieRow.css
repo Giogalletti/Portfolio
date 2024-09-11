@@ -218,10 +218,16 @@ img:hover {
         width: 300px;
     }
     .movieRow--item--c img {
-        width: 85px;
-        height: auto;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        filter: grayscale(0%);
     }
-
+    .movieRow--item--c{
+        display: flex;
+        justify-content: center;
+        margin-left: 5px;
+    }
     .modal-content {
         width: 80%;
         max-width: 90%;
@@ -229,11 +235,9 @@ img:hover {
         left: 10%;
         top: 15%;
     }
-
     .modal-content img {
         width: 100%;
     }
-
     .close {
         font-size: 40px;
     }
@@ -288,7 +292,15 @@ img:hover {
         background-color: #111;
     }
     .movieRow--item--c img {
-        width: 140px;
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        filter: grayscale(0%);
+    }
+    .movieRow--item--c{
+        display: flex;
+        justify-content: center;
+        margin-left: 5px;
     }
     .movieRow--item{
         background-color: #111;
