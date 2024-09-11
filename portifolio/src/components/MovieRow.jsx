@@ -44,16 +44,16 @@ const MovieRow = () => {
         <div className='movieRow--list'>
           <h2>Tecnologias</h2>
           <div className='movieRow--item--t' ref={techListRef}>
-            <img src="/public/html5.png" alt="HTML5" />
-            <img src="/public/social.png" alt="Social" />
-            <img src="/public/js.png" alt="JavaScript" />
-            <img src="/public/react.png" alt="React" />
-            <img src="/public/java.png" alt="Java" />
-            <img src="/public/python.png" alt="Python" />
-            <img src="/public/typescript.png" alt="TypeScript" />
-            <img src="/public/C.png" alt="C" />
-            <img src="/public/git.png" alt="Git" />
-            <img src="/public/Visual_Studio_Code.png" alt="Visual Studio Code" />
+            <img src="html5.png" alt="HTML5" />
+            <img src="social.png" alt="Social" />
+            <img src="js.png" alt="JavaScript" />
+            <img src="React.png" alt="React" />
+            <img src="java.png" alt="Java" />
+            <img src="python.png" alt="Python" />
+            <img src="typescript.png" alt="TypeScript" />
+            <img src="C.png" alt="C" />
+            <img src="git.png" alt="Git" />
+            <img src="Visual_Studio_Code.png" alt="Visual Studio Code" />
           </div>
         </div>
       </div>
@@ -67,27 +67,27 @@ const MovieRow = () => {
         <div className='movieRow--list'>
           <h2>Projetos</h2>
           <div className='movieRow--item--p' ref={projListRef}>
-            <img src="/public/galeria-pc.png" alt="Galeria de Fotos" onClick={() => handleImageClick("/public/Galeria.mp4", "Aplicação web responsiva que usa APIs para exibir imagens.")} />
-            <img src="/public/clone_apple.png" alt="Clone Apple" onClick={() => handleImageClick("/public/IPhone.mp4", "Um clone da página da Apple, replicando seu design elegante com responsividade mobile")} />
-            <img src="/public/tabuada.png" alt="Tabuada" onClick={() => handleImageClick("/public/Tabuada.mp4", "Um aplicativo para aprender e praticar tabuadas.")} />
-            <img src="/public/gerador_qr_code.png" alt="Gerador QR Code" onClick={() => handleImageClick("/public/GeradorQRCode.mp4", "Um gerador de QR Codes, útil para compartilhamento rápido.")} />
-            <img src="/public/Lista.png" alt="Lista de Tarefas" onClick={() => handleImageClick("/public/ListaDeTarefas.mp4", "Um aplicativo para gerenciamento de tarefas feito com react")} />
-            <img src="/public/clone_instagram.png" alt="Clone Instagram" onClick={() => handleImageClick("/public/instagram.mp4", "Um clone da interface do Instagram, destacando suas funcionalidades.")} />          </div>
+            <img src="galeria-pc.png" alt="Galeria de Fotos" onClick={() => handleImageClick("Galeria.mp4", "Aplicação web responsiva que usa APIs para exibir imagens.")} />
+            <img src="clone_apple.png" alt="Clone Apple" onClick={() => handleImageClick("IPhone.mp4", "Um clone da página da Apple, replicando seu design elegante com responsividade mobile")} />
+            <img src="tabuada.png" alt="Tabuada" onClick={() => handleImageClick("Tabuada.mp4", "Um aplicativo para aprender e praticar tabuadas.")} />
+            <img src="gerador_qr_code.png" alt="Gerador QR Code" onClick={() => handleImageClick("GeradorQRCode.mp4", "Um gerador de QR Codes, útil para compartilhamento rápido.")} />
+            <img src="Lista.png" alt="Lista de Tarefas" onClick={() => handleImageClick("ListaDeTarefas.mp4", "Um aplicativo para gerenciamento de tarefas feito com react")} />
+            <img src="clone_instagram.png" alt="Clone Instagram" onClick={() => handleImageClick("instagram.mp4", "Um clone da interface do Instagram, destacando suas funcionalidades.")} />          </div>
         </div>
       </div>
       <h2>Contatos</h2>
       <div className='movieRow--item--c'>
         <a href="https://wa.me/5561999095049" target="_blank" rel="noopener noreferrer">
-          <img src="/public/whatsapp.png" alt="WhatsApp" />
+          <img src="whatsapp.png" alt="WhatsApp" />
         </a>
         <a href="mailto:giovannegallettied@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img src="/public/gmail.png" alt="Gmail" />
+          <img src="gmail.png" alt="Gmail" />
         </a>
         <a href="https://www.linkedin.com/in/giovanne-galletti-b5b004204/" target="_blank" rel="noopener noreferrer">
-          <img src="/public/linkedin.png" alt="LinkedIn" />
+          <img src="linkedin.png" alt="LinkedIn" />
         </a>
         <a href="https://github.com/Giogalletti" target="_blank" rel="noopener noreferrer">
-          <img src="/public/github.png" alt="GitHub" />
+          <img src="github.png" alt="GitHub" />
         </a>
       </div>
 

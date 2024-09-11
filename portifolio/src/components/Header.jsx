@@ -23,12 +23,12 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'black' : 'transparent'}`}>
       <div className='header--logo'>
         <a href="/">
-          <img src="./public/LogoGiovanne.png" alt="" />
+          <img src="LogoGiovanne.png" alt="" />
         </a>
       </div>
       <div className='header--logo'>
         <a href="/">
-          <img className='user' src="./public/user.png" alt="" />
+          <img className='user' src="user.png" alt="" />
         </a>
       </div>
     </header>
