@@ -21,7 +21,7 @@ const App = () => {
         <p>E-mail: <a href="mailto:giovannegalletti@gmail.com" target="_blank">giovannegallettied@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/giovanne-galletti-b5b004204/" target="_blank">giovanne-galletti</a></p>
         <p>GitHub: <a href="https://github.com/Giogalletti" target="_blank">Giogalletti</a></p>
-        <p>Curriculo: <a href="Curriculum-Giovanne-Galletti.pdf" download>Download</a></p>
+        <p>Curriculo: <a href="https://drive.google.com/file/d/1yrFiZvItFxmuwsANjW1l66cMfxFk3eN0/view?usp=drive_link" download>Download</a></p>
       </footer>
     </div>
   )
