@@ -17,11 +17,23 @@ const App = () => {
       <div className="divisor"></div>
       <footer>
         <h2>Contatos</h2>
-        <p>WhatsApp: <a href="https://wa.me/5561999095049" target="_blank">+55 61 99909-5049</a></p>
-        <p>E-mail: <a href="mailto:giovannegalletti@gmail.com" target="_blank">giovannegallettied@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/giovanne-galletti-b5b004204/" target="_blank">giovanne-galletti</a></p>
-        <p>GitHub: <a href="https://github.com/Giogalletti" target="_blank">Giogalletti</a></p>
-        <p>Curriculo: <a href="https://drive.google.com/file/d/1yrFiZvItFxmuwsANjW1l66cMfxFk3eN0/view?usp=drive_link" download>Download</a></p>
+        <div className='movieRow--item--c'>
+          <a href="https://wa.me/5561999095049" target="_blank" rel="noopener noreferrer">
+            <img src="whatsapp.png" alt="WhatsApp" />
+          </a>
+          <a href="mailto:giovannegallettied@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src="gmail.png" alt="Gmail" />
+          </a>
+          <a href="https://www.linkedin.com/in/giovanne-galletti-b5b004204/" target="_blank" rel="noopener noreferrer">
+            <img src="linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/Giogalletti" target="_blank" rel="noopener noreferrer">
+            <img src="github.png" alt="GitHub" />
+          </a>
+          <a href="https://drive.google.com/file/d/1yrFiZvItFxmuwsANjW1l66cMfxFk3eN0/view?usp=drive_link" download>
+            <img src="curriculo.png" alt="Curriculo" />
+          </a>
+        </div>
       </footer>
     </div>
   )

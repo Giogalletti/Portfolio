@@ -75,21 +75,6 @@ const MovieRow = () => {
             <img src="clone_instagram.png" alt="Clone Instagram" onClick={() => handleImageClick("instagram.mp4", "Um clone da interface do Instagram, destacando suas funcionalidades.")} />          </div>
         </div>
       </div>
-      <h2>Contatos</h2>
-      <div className='movieRow--item--c'>
-        <a href="https://wa.me/5561999095049" target="_blank" rel="noopener noreferrer">
-          <img src="whatsapp.png" alt="WhatsApp" />
-        </a>
-        <a href="mailto:giovannegallettied@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img src="gmail.png" alt="Gmail" />
-        </a>
-        <a href="https://www.linkedin.com/in/giovanne-galletti-b5b004204/" target="_blank" rel="noopener noreferrer">
-          <img src="linkedin.png" alt="LinkedIn" />
-        </a>
-        <a href="https://github.com/Giogalletti" target="_blank" rel="noopener noreferrer">
-          <img src="github.png" alt="GitHub" />
-        </a>
-      </div>
 
       {modalData.isOpen && (
     <div 
