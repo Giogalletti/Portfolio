@@ -39,3 +39,8 @@ footer a:hover {
 .app {
   transition: background-color 0.3s, color 0.3s;
 }
+@media (max-width: 960px){
+  .divisor{
+    width: 900px;
+  }
+}
