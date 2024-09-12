@@ -334,8 +334,3 @@ img:hover {
         font-size: 40px;
     }
 }
-@media (max-width: 960px){
-    .movieRow{
-      width: 941px;
-    }
-  }

@@ -152,8 +152,3 @@
         font-size: 35px;
     }
 }
-@media (max-width: 960px){
-    .destaque{
-      width: 941px;
-    }
-  }
