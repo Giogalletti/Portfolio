@@ -68,6 +68,7 @@ const MovieRow = () => {
           <h2>Projetos</h2>
           <div className='movieRow--item--p' ref={projListRef}>
             <img src="galeria-pc.png" alt="Galeria de Fotos" onClick={() => handleImageClick("Galeria.mp4", "Aplicação web responsiva que usa APIs para exibir imagens.")} />
+            <img src="quiz.png" alt="Quiz"  onClick={() => handleImageClick("quiz.mp4", "Um jogo de perguntas e respostas sobre HTML, CSS e Javascript")} />
             <img src="clone_apple.png" alt="Clone Apple" onClick={() => handleImageClick("IPhone.mp4", "Um clone da página da Apple, replicando seu design elegante com responsividade mobile")} />
             <img src="tabuada.png" alt="Tabuada" onClick={() => handleImageClick("Tabuada.mp4", "Um aplicativo para aprender e praticar tabuadas.")} />
             <img src="gerador_qr_code.png" alt="Gerador QR Code" onClick={() => handleImageClick("GeradorQRCode.mp4", "Um gerador de QR Codes, útil para compartilhamento rápido.")} />
